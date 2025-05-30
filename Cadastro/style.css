@@ -12,7 +12,6 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-image: url('../Imagens/Background-cadastro.png');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -20,20 +19,20 @@ body {
   align-items: center;
   color: #333;
   min-height: 100vh;
-  padding-top: 5rem; /* Adiciona espaço para evitar sobreposição do cabeçalho */
+  padding-top: 5rem; 
 }
 
-/* Fundo semitransparente */
+
 .bg {
-  background: url('../../Imagens/Background.png') no-repeat center center;
-  background-size: cover;
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  z-index: -1;
-  opacity: 0.4;
+    background: url('../../Imagens/Background.png') no-repeat center center;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
 }
 
 /* Cabeçalho */
