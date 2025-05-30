@@ -22,9 +22,8 @@ body {
   padding-top: 5rem; 
 }
 
-
 .bg {
-    background: url('../../Imagens/Background.png') no-repeat center center;
+    background: url('../Imagens/Background.png') no-repeat center center;
     background-size: cover;
     position: fixed;
     top: 0;
